@@ -11,4 +11,4 @@ SELECT distinct department from worker;
 select substring(first_name, 1, 3) from worker;
 
 -- Q-5. Write an SQL query to find the position of the alphabet (‘b’) in the first name column ‘Amitabh’ from Worker table.
-select INSTR(first_name, 'B') from worker where first_name = 'Amitabh';
+select INSTR(first_name,'B') from worker where first_name = 'Amitabh';
